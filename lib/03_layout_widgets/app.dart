@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tkm_flutter/03_layout_widgets/home_page.dart';
 import 'package:tkm_flutter/03_layout_widgets/pages/align_page.dart';
+import 'package:tkm_flutter/03_layout_widgets/pages/builder_page.dart';
 import 'package:tkm_flutter/03_layout_widgets/pages/constraints_page.dart';
 import 'package:tkm_flutter/03_layout_widgets/pages/flex_page.dart';
 import 'package:tkm_flutter/03_layout_widgets/pages/linear_layout_page.dart';
@@ -21,6 +22,7 @@ class App extends StatelessWidget {
         '/wrap': (ctx) => const WrapPage(),
         '/stack': (ctx) => const StackPage(),
         '/align': (ctx) => const AlignPage(),
+        '/builder': (ctx) => const BuilderPage(),
       },
       initialRoute: '/',
     );
