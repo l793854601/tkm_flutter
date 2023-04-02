@@ -20,6 +20,9 @@ class _ScaffoldPageState extends State<ScaffoldPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //  IndexedStack无法达到懒加载的目的
+      //  PageView默认情况下无法保存子Widget，每次切换需要重新build
+      //  可以使用PageView+AutomaticKeepAlive达到懒加载的目的
       body: IndexedStack(
         index: _index,
         children: _indexPages,
@@ -73,6 +76,7 @@ class IndexPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    debugPrint('page: $_title build called');
     return Scaffold(
       appBar: AppBar(
         title: Text(_title),
