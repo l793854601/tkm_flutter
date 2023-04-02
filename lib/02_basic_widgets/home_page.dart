@@ -24,6 +24,22 @@ class HomePage extends StatelessWidget {
               onPressed: () => Navigator.pushNamed(context, '/image'),
               child: const Text('Image'),
             ),
+            ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, '/switch_and_checkbox'),
+              child: const Text('Switch And Checkbox'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, '/text_field'),
+              child: const Text('TextField'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, '/form'),
+              child: const Text('Form'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, '/indicator'),
+              child: const Text('Indicator'),
+            ),
           ],
         ),
       ),
