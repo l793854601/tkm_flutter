@@ -7,7 +7,7 @@ class ButtonsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Buttons Page'),
+        title: const Text('Button Page'),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -91,7 +91,6 @@ class ButtonsPage extends StatelessWidget {
         //  如果尺寸小于minimumSize，则不会生效
         fixedSize: const MaterialStatePropertyAll(Size(150, 40)),
         // minimumSize: const MaterialStatePropertyAll(Size(200, 80)),
-
         //  除去Button占用的默认尺寸
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
         //  边框、圆角
