@@ -43,6 +43,14 @@ dependencies:
   # 自动回收键盘
   flutter_keyboard_visibility: ^5.4.0
 
+  # https://pub.flutter-io.cn/packages/provider
+  # Flutter官方提供的全局状态管理解决方案
+  provider: ^6.0.5
+
+  # https://pub.flutter-io.cn/packages/dio
+  # 网络请求
+  dio: ^5.1.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
