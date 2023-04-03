@@ -51,6 +51,10 @@ dependencies:
   # 网络请求
   dio: ^5.1.1
 
+  # https://pub.flutter-io.cn/packages/event_bus
+  # 事件总线（参考Android中的EventBus）
+  event_bus: ^2.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
