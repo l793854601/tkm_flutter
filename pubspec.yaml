@@ -59,6 +59,9 @@ dependencies:
   # 屏幕适配
   # flutter_screenutil: ^5.7.0
 
+  # https://pub.flutter-io.cn/packages/image_picker
+  image_picker: ^0.8.7+1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
